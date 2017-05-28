@@ -3,7 +3,7 @@ from matplotlib import pyplot as plt
 
 # http://docs.opencv.org/3.2.0/d4/dc6/tutorial_py_template_matching.html
 
-img_filename = "../testdata/lebron_template.jpg"
+img_filename = "../testdata/lebron_fullimage.jpg"
 template_filename = "../testdata/lebron_face.jpg"
 
 img = cv2.imread(img_filename,0)
